@@ -1,0 +1,15 @@
+.row {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 1264px;
+}
+
+.row .ellipse {
+  background-color: #00000029;
+  border-radius: 0.5px;
+  height: 1px;
+  position: relative;
+  width: 1px;
+}

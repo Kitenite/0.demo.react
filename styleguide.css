@@ -1,0 +1,71 @@
+:root {
+  --spacing-spacing-lg: 24px;
+  --spacing-spacing-md: 16px;
+  --spacing-spacing-sm: 12px;
+  --spacing-spacing-xl: 32px;
+  --spacing-spacing-xs: 8px;
+  --themes-border-radius-medium: 4px;
+  --themes-border-radius-small: 2px;
+  --themes-color-background: rgba(250, 250, 250, 1);
+  --themes-color-border-primary: rgba(0, 0, 0, 0.12);
+  --themes-color-border-secondary: rgba(0, 0, 0, 0.08);
+  --themes-color-button-fill: rgba(0, 0, 0, 0.85);
+  --themes-color-button-text: rgba(255, 255, 255, 1);
+  --themes-color-dot: rgba(0, 0, 0, 0.16);
+  --themes-color-input-background: rgba(255, 255, 255, 1);
+  --themes-color-text-primary: rgba(0, 0, 0, 0.9);
+  --themes-color-text-secondary: rgba(0, 0, 0, 0.6);
+  --themes-color-text-tertiary: rgba(0, 0, 0, 0.3);
+}
+
+/*
+
+To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+
+<body data-spacing-mode="standard">
+    <!-- the rest of your content -->
+</body>
+
+You can apply the theme on any DOM node, not just the `body`
+
+*/
+
+[data-spacing-mode="standard"] {
+  --spacing-spacing-lg: 24px;
+  --spacing-spacing-md: 16px;
+  --spacing-spacing-sm: 12px;
+  --spacing-spacing-xl: 32px;
+  --spacing-spacing-xs: 8px;
+}
+
+[data-spacing-mode="expanded"] {
+  --spacing-spacing-lg: 48px;
+  --spacing-spacing-md: 32px;
+  --spacing-spacing-sm: 24px;
+  --spacing-spacing-xl: 64px;
+  --spacing-spacing-xs: 16px;
+}
+
+[data-spacing-mode="condensed"] {
+  --spacing-spacing-lg: 12px;
+  --spacing-spacing-md: 8px;
+  --spacing-spacing-sm: 4px;
+  --spacing-spacing-xl: 16px;
+  --spacing-spacing-xs: 2px;
+}
+
+[data-themes-mode="minimal"] {
+  --themes-border-radius-medium: 4px;
+  --themes-border-radius-small: 2px;
+  --themes-color-background: rgba(250, 250, 250, 1);
+  --themes-color-button-fill: rgba(0, 0, 0, 0.85);
+  --themes-color-input-background: rgba(255, 255, 255, 1);
+}
+
+[data-themes-mode="rounded"] {
+  --themes-border-radius-medium: 12px;
+  --themes-border-radius-small: 8px;
+  --themes-color-background: rgba(255, 255, 255, 1);
+  --themes-color-button-fill: rgba(0, 122, 255, 1);
+  --themes-color-input-background: rgba(250, 250, 250, 1);
+}

@@ -1,0 +1,1 @@
+export { PhoneDeviceIphoneMobile } from "./PhoneDeviceIphoneMobile";
