@@ -4,18 +4,20 @@
     --spacing-spacing-sm: 12px;
     --spacing-spacing-md: 16px;
     --spacing-spacing-xs: 8px;
+    --themes-color-secondary-button-fill: #FFFFFF;
     --themes-color-dot: #00000029;
-    --themes-color-input-background: #FFE9E9;
+    --themes-color-input-background: #FFFFFF;
     --themes-color-text-primary: #000000E5;
     --themes-color-border-primary: #0000001F;
     --themes-color-background: #FAFAFA;
     --themes-color-border-secondary: #00000014;
-    --themes-border-radius-medium: 16px;
+    --themes-border-radius-medium: 8px;
     --themes-color-text-tertiary: #0000004D;
-    --themes-border-radius-small: 8px;
-    --themes-color-button-fill: #FF4141D9;
-    --themes-color-button-text: #FFFFFF;
+    --themes-border-radius-small: 4px;
+    --themes-color-primary-button-fill: #000000D9;
+    --themes-color-primary-button-text: #FFFFFF;
     --themes-color-text-secondary: #00000099;
+    --themes-color-secondary-button-text: #000000;
 }
 [data-spacing-mode="standard"] {
     --spacing-spacing-xl: 32px;
@@ -39,14 +41,16 @@
     --spacing-spacing-xs: 2px;
 }
 [data-themes-mode="minimal"] {
-    --themes-color-input-background: #FFE9E9;
+    --themes-color-input-background: #FFFFFF;
     --themes-color-background: #FAFAFA;
-    --themes-border-radius-medium: 16px;
-    --themes-color-button-fill: #FF4141D9;
+    --themes-border-radius-medium: 8px;
+    --themes-border-radius-small: 4px;
+    --themes-color-primary-button-fill: #000000D9;
 }
-[data-themes-mode="rounded"] {
+[data-themes-mode="rounded-blue"] {
     --themes-color-input-background: #FAFAFA;
     --themes-color-background: #FFFFFF;
-    --themes-border-radius-medium: 12px;
-    --themes-color-button-fill: #007AFF;
+    --themes-border-radius-medium: 16px;
+    --themes-border-radius-small: 8px;
+    --themes-color-primary-button-fill: #007AFF;
 }
