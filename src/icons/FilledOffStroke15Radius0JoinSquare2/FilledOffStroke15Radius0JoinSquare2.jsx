@@ -17,7 +17,7 @@ export const FilledOffStroke15Radius0JoinSquare2 = ({ className }) => {
     >
       <path
         className="path"
-        d="M9.75 19.25H14.25M5.75 1.75H18.25V22.25H5.75V1.75Z"
+        d="M21.25 13.25H2.75M9.75 17.25H14.25V21.25H9.75V17.25ZM2.75 3.75H21.25V17.25H2.75V3.75Z"
         stroke="black"
         strokeLinecap="square"
         strokeWidth="1.5"

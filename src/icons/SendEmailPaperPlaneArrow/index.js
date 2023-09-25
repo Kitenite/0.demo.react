@@ -1,0 +1,1 @@
+export { SendEmailPaperPlaneArrow } from "./SendEmailPaperPlaneArrow";

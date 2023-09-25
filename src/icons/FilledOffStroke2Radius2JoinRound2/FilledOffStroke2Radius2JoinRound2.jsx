@@ -17,9 +17,10 @@ export const FilledOffStroke2Radius2JoinRound2 = ({ className }) => {
     >
       <path
         className="path"
-        d="M10 19H14M8 22H16C17.1046 22 18 21.1046 18 20V4C18 2.89543 17.1046 2 16 2H8C6.89543 2 6 2.89543 6 4V20C6 21.1046 6.89543 22 8 22Z"
+        d="M21 13H3M10 17H14V21H10V17ZM5 17H19C20.1046 17 21 16.1046 21 15V6C21 4.89543 20.1046 4 19 4H5C3.89543 4 3 4.89543 3 6V15C3 16.1046 3.89543 17 5 17Z"
         stroke="black"
-        strokeLinecap="round"
+        strokeLinecap="square"
+        strokeLinejoin="round"
         strokeWidth="2"
       />
     </svg>

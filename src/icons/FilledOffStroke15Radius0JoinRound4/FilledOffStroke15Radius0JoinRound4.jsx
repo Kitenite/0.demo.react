@@ -17,7 +17,7 @@ export const FilledOffStroke15Radius0JoinRound4 = ({ className }) => {
     >
       <path
         className="path"
-        d="M8 10L12 14L16 10"
+        d="M14 22.25L20.5 3.5L1.75 10L11 13L14 22.25Z"
         stroke="black"
         strokeLinecap="round"
         strokeLinejoin="round"

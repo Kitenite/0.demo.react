@@ -1,9 +1,9 @@
-import { ConsoleViewSoft } from "./screens/ConsoleViewSoft";
+import { Console } from "./screens/Console";
 import './App.css'
 
 function App() {
   return (
-    <ConsoleViewSoft />
+    <Console />
   )
 }
 

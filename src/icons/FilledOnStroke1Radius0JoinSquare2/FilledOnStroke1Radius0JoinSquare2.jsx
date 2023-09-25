@@ -15,7 +15,14 @@ export const FilledOnStroke1Radius0JoinSquare2 = ({ className }) => {
       width="24"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <path className="path" clipRule="evenodd" d="M5 23V1H19V23H5ZM9 20V21H15V20H9Z" fill="black" fillRule="evenodd" />
+      <path className="path" d="M2 3V13H22V3H2Z" fill="black" />
+      <path
+        className="path"
+        clipRule="evenodd"
+        d="M2 18V14H22V18H15V22H9V18H2ZM10 18V21H14V18H10Z"
+        fill="black"
+        fillRule="evenodd"
+      />
     </svg>
   );
 };

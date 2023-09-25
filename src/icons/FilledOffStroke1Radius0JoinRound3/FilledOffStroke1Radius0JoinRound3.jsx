@@ -17,7 +17,7 @@ export const FilledOffStroke1Radius0JoinRound3 = ({ className }) => {
     >
       <path
         className="path"
-        d="M21.5 13.5H2.5M9.5 17.5H14.5V21.5H9.5V17.5ZM2.5 3.5H21.5V17.5H2.5V3.5Z"
+        d="M9.5 20.5H14.5M5.5 1.5H18.5V22.5H5.5V1.5Z"
         stroke="black"
         strokeLinecap="round"
         strokeLinejoin="round"

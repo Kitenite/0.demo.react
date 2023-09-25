@@ -15,7 +15,7 @@ export const FilledOffStroke1Radius0JoinSquare1 = ({ className }) => {
       width="24"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <path className="path" d="M14 21.5L20.5 3.5L2.5 10L11 13L14 21.5Z" stroke="black" strokeLinecap="round" />
+      <path className="path" d="M8 10L12 14L16 10" stroke="black" strokeLinecap="square" />
     </svg>
   );
 };
