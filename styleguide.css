@@ -1,53 +1,42 @@
 :root {
-  --spacing-spacing-lg: 24px;
-  --spacing-spacing-md: 16px;
-  --spacing-spacing-sm: 12px;
-  --spacing-spacing-xl: 32px;
-  --spacing-spacing-xs: 8px;
-  --themes-border-radius-medium: 8px;
-  --themes-border-radius-small: 4px;
-  --themes-color-background: rgba(250, 250, 250, 1);
-  --themes-color-border-primary: rgba(0, 0, 0, 0.12);
-  --themes-color-border-secondary: rgba(0, 0, 0, 0.08);
-  --themes-color-dot: rgba(0, 0, 0, 0.16);
-  --themes-color-input-background: rgba(255, 255, 255, 1);
-  --themes-color-primary-button-fill: rgba(0, 122, 255, 1);
-  --themes-color-primary-button-text: rgba(255, 255, 255, 1);
-  --themes-color-secondary-button-fill: rgba(255, 255, 255, 1);
-  --themes-color-secondary-button-text: rgba(0, 0, 0, 1);
-  --themes-color-text-primary: rgba(0, 0, 0, 0.9);
-  --themes-color-text-secondary: rgba(0, 0, 0, 0.6);
-  --themes-color-text-tertiary: rgba(0, 0, 0, 0.3);
+    --spacing-spacing-xl: 32px;
+    --spacing-spacing-lg: 24px;
+    --spacing-spacing-sm: 12px;
+    --spacing-spacing-md: 16px;
+    --spacing-spacing-xs: 8px;
+    --themes-color-secondary-button-fill: #FFFFFF;
+    --themes-color-dot: #00000029;
+    --themes-color-input-background: #FFFFFF;
+    --themes-color-text-primary: #000000E5;
+    --themes-color-border-primary: #0000001F;
+    --themes-color-background: #FAFAFA;
+    --themes-color-border-secondary: #00000014;
+    --themes-border-radius-medium: 8px;
+    --themes-color-text-tertiary: #0000004D;
+    --themes-border-radius-small: 4px;
+    --themes-color-primary-button-fill: #000000D9;
+    --themes-color-primary-button-text: #FFFFFF;
+    --themes-color-text-secondary: #00000099;
+    --themes-color-secondary-button-text: #000000;
 }
-
 [data-spacing-mode="standard"] {
-  --spacing-spacing-lg: 24px;
-  --spacing-spacing-md: 16px;
-  --spacing-spacing-sm: 12px;
-  --spacing-spacing-xl: 32px;
-  --spacing-spacing-xs: 8px;
+    --spacing-spacing-xl: 32px;
+    --spacing-spacing-lg: 24px;
+    --spacing-spacing-sm: 12px;
+    --spacing-spacing-md: 16px;
+    --spacing-spacing-xs: 8px;
 }
-
 [data-spacing-mode="expanded"] {
-  --spacing-spacing-lg: 48px;
-  --spacing-spacing-md: 32px;
-  --spacing-spacing-sm: 24px;
-  --spacing-spacing-xl: 64px;
-  --spacing-spacing-xs: 16px;
+    --spacing-spacing-xl: 64px;
+    --spacing-spacing-lg: 48px;
+    --spacing-spacing-sm: 24px;
+    --spacing-spacing-md: 32px;
+    --spacing-spacing-xs: 16px;
 }
-
 [data-spacing-mode="condensed"] {
-  --spacing-spacing-lg: 12px;
-  --spacing-spacing-md: 8px;
-  --spacing-spacing-sm: 4px;
-  --spacing-spacing-xl: 16px;
-  --spacing-spacing-xs: 2px;
-}
-
-[data-themes-mode="minimal"] {
-  --themes-color-primary-button-fill: rgba(0, 122, 255, 1);
-}
-
-[data-themes-mode="round"] {
-  --themes-color-primary-button-fill: rgba(0, 0, 0, 0.85);
+    --spacing-spacing-xl: 16px;
+    --spacing-spacing-lg: 12px;
+    --spacing-spacing-sm: 4px;
+    --spacing-spacing-md: 8px;
+    --spacing-spacing-xs: 2px;
 }
