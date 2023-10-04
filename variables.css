@@ -1,0 +1,134 @@
+[data-tokens-mode="mode-1"] {
+    --color-button-label-primary: #000000;
+    --color-color-violet: #C7B9FF;
+    --color-button-background-primary: #C7B9FF;
+    --color-color-black: #000000;
+    --color-button-outline-primary: #000000;
+    --number-radius-sm: 8;
+    --number-spacing-lg: 24;
+    --number-spacing-sm: 12;
+}
+
+[data-colors-example-mode="light"] {
+    --color-border-primary: #000000;
+    --color-surface: #FFFFFF;
+    --color-accent: #F769C7;
+    --color-text-primary: #000000;
+    --color-surface-faint: #FAFAFA;
+    --color-brand: #3CFF8A;
+    --color-feature: #FF8577;
+    --input-selected: #FF8577;
+    --input-foreground-color: #000000;
+    --input-border-color: #000000;
+    --input-background-color: #FFFFFF;
+    --button-foreground-primary: #000000;
+    --button-border-primary: #000000;
+    --button-background-primary: #3CFF8A;
+}
+
+[data-colors-example-mode="dark"] {
+    --color-border-primary: #757575;
+    --color-surface: #000000;
+    --color-accent: #699BF7;
+    --color-text-primary: #FFFFFF;
+    --color-surface-faint: #2A2A2A;
+    --color-brand: #8061FF;
+    --color-feature: #FF8577;
+    --input-selected: #FF8577;
+    --input-foreground-color: #FFFFFF;
+    --input-border-color: #757575;
+    --input-background-color: #000000;
+    --button-foreground-primary: #FFFFFF;
+    --button-border-primary: #8061FF;
+    --button-background-primary: #8061FF;
+}
+
+[data-text-example-mode="english"] {
+    --itemadded: true;
+    --product-pears: "Pears";
+    --product-cherries-price: "$2.89/lb";
+    --grown-in: "Grown in";
+    --product-pears-price: "$2.29/lb";
+    --product-cherries: "Cherries";
+    --product-watermelon-price: "$5.99/ea";
+    --product-watermelon: "Watermelon";
+    --add-to-cart: "Add to cart";
+    --find-an-item: "Find an item";
+    --search: "Search";
+    --hello-friend: "Hello friend";
+}
+
+[data-text-example-mode="german"] {
+    --itemadded: false;
+    --product-pears: "Birne";
+    --product-cherries-price: "2,49 €";
+    --grown-in: "Angebaut in";
+    --product-pears-price: "1,89 €";
+    --product-cherries: "Kirschen";
+    --product-watermelon-price: "3,69 €";
+    --product-watermelon: "Wassermelone";
+    --add-to-cart: "In den Warenkorb";
+    --find-an-item: "Einen Gegenstand finden";
+    --search: "Suche";
+    --hello-friend: "Hallo Freund";
+}
+
+[data-text-example-mode="japanese"] {
+    --itemadded: false;
+    --product-pears: "洋ナシ";
+    --product-cherries-price: "¥ 10000";
+    --grown-in: "で育った";
+    --product-pears-price: "¥ 299";
+    --product-cherries: "さくらんぼ";
+    --product-watermelon-price: "¥ 980";
+    --product-watermelon: "スイカ";
+    --add-to-cart: "カートに入れる";
+    --find-an-item: "アイテムを見つける";
+    --search: "検索";
+    --hello-friend: "こんにちは、友人";
+}
+
+[data-spacing-example-mode="standard"] {
+    --spacing-xl: 32;
+    --spacing-lg: 24;
+    --spacing-sm: 12;
+    --spacing-md: 16;
+    --spacing-xs: 8;
+}
+
+[data-spacing-example-mode="expanded"] {
+    --spacing-xl: 64;
+    --spacing-lg: 48;
+    --spacing-sm: 24;
+    --spacing-md: 32;
+    --spacing-xs: 16;
+}
+
+[data-spacing-example-mode="condensed"] {
+    --spacing-xl: 16;
+    --spacing-lg: 12;
+    --spacing-sm: 4;
+    --spacing-md: 8;
+    --spacing-xs: 2;
+}
+
+[data-themes-mode="light"] {
+    --color-border-primary: #000000;
+    --color-surface: #FFFFFF;
+    --color-text-primary: #000000;
+    --color-brand: #C7B9FF;
+    --button-foreground-primary: #000000;
+    --button-border-primary: #000000;
+    --button-background-primary: #C7B9FF;
+}
+
+[data-themes-mode="dark"] {
+    --color-border-primary: #757575;
+    --color-surface: #000000;
+    --color-text-primary: #FFFFFF;
+    --color-brand: #8061FF;
+    --button-foreground-primary: #FFFFFF;
+    --button-border-primary: #757575;
+    --button-background-primary: #8061FF;
+}
+
