@@ -1,0 +1,36 @@
+[data-core-mode="light"] {
+    --button-text-secondary: #FFFFFF;
+    --button-background-secondary: #000000E5;
+    --border-primary: #0000001F;
+    --border-radius-lg: 6;
+    --border-radius-md: 4;
+    --border-radius-sm: 2;
+    --border-secondary: #0000000F;
+    --text-tertiary: #0000004D;
+    --text-secondary: #00000099;
+    --text-primary: #000000E5;
+    --background-background-canvas: #F8F8F8;
+    --background-background-primary-alt: #FDFDFD;
+    --background-background-tertiary: #0000000A;
+    --background-background-secondary: #00000014;
+    --background-background-primary: #FFFFFF;
+}
+
+[data-core-mode="dark"] {
+    --button-text-secondary: #000000E5;
+    --button-background-secondary: #FFFFFF;
+    --border-primary: #FFFFFF1F;
+    --border-radius-lg: 6;
+    --border-radius-md: 4;
+    --border-radius-sm: 2;
+    --border-secondary: #FFFFFF0F;
+    --text-tertiary: #FFFFFF4D;
+    --text-secondary: #FFFFFF99;
+    --text-primary: #FFFFFFE5;
+    --background-background-canvas: #2C2C2C;
+    --background-background-primary-alt: #1B1B1B;
+    --background-background-tertiary: #FFFFFF0A;
+    --background-background-secondary: #FFFFFF14;
+    --background-background-primary: #2C2C2C;
+}
+
