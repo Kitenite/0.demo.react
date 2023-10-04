@@ -1,54 +1,58 @@
-:root {
-    --spacing-spacing-xl: 32px;
-    --spacing-spacing-lg: 24px;
-    --spacing-spacing-sm: 12px;
-    --spacing-spacing-md: 16px;
-    --spacing-spacing-xs: 8px;
-    --themes-color-secondary-button-fill: #FFFFFF;
-    --themes-color-dot: #00000029;
-    --themes-color-input-background: #FFFFFF;
-    --themes-color-text-primary: #000000E5;
-    --themes-color-border-primary: #0000001F;
-    --themes-color-background: #FFFFFF;
-    --themes-color-border-secondary: #00000014;
-    --themes-border-radius-medium: 12px;
-    --themes-color-text-tertiary: #0000004D;
-    --themes-border-radius-small: 8px;
-    --themes-color-primary-button-fill: #007AFF;
-    --themes-color-primary-button-text: #FFFFFF;
-    --themes-color-text-secondary: #00000099;
-    --themes-color-secondary-button-text: #000000;
-}
 [data-spacing-mode="standard"] {
-    --spacing-spacing-xl: 32px;
-    --spacing-spacing-lg: 24px;
-    --spacing-spacing-sm: 12px;
-    --spacing-spacing-md: 16px;
-    --spacing-spacing-xs: 8px;
+    --spacing-spacing-xs: 8;
+    --spacing-spacing-sm: 12;
+    --spacing-spacing-md: 16;
+    --spacing-spacing-lg: 24;
+    --spacing-spacing-xl: 32;
 }
+
 [data-spacing-mode="expanded"] {
-    --spacing-spacing-xl: 64px;
-    --spacing-spacing-lg: 48px;
-    --spacing-spacing-sm: 24px;
-    --spacing-spacing-md: 32px;
-    --spacing-spacing-xs: 16px;
+    --spacing-spacing-xs: 16;
+    --spacing-spacing-sm: 24;
+    --spacing-spacing-md: 32;
+    --spacing-spacing-lg: 48;
+    --spacing-spacing-xl: 64;
 }
+
 [data-spacing-mode="condensed"] {
-    --spacing-spacing-xl: 16px;
-    --spacing-spacing-lg: 12px;
-    --spacing-spacing-sm: 4px;
-    --spacing-spacing-md: 8px;
-    --spacing-spacing-xs: 2px;
+    --spacing-spacing-xs: 2;
+    --spacing-spacing-sm: 4;
+    --spacing-spacing-md: 8;
+    --spacing-spacing-lg: 12;
+    --spacing-spacing-xl: 16;
 }
+
 [data-themes-mode="minimal"] {
+    --themes-color-text-primary: #000000E5;
+    --themes-color-text-secondary: #00000099;
+    --themes-color-text-tertiary: #0000004D;
+    --themes-color-input-background: #FFFFFF;
+    --themes-color-primary-button-text: #FFFFFF;
+    --themes-color-secondary-button-text: #000000;
+    --themes-color-primary-button-fill: #000000;
+    --themes-color-secondary-button-fill: #FFFFFF;
     --themes-color-background: #FFFFFF;
-    --themes-border-radius-medium: 12px;
-    --themes-border-radius-small: 8px;
-    --themes-color-primary-button-fill: #007AFF;
+    --themes-color-border-primary: #0000001F;
+    --themes-color-border-secondary: #00000014;
+    --themes-color-dot: #00000029;
+    --themes-border-radius-small: 8;
+    --themes-border-radius-medium: 12;
 }
+
 [data-themes-mode="round"] {
+    --themes-color-text-primary: #000000E5;
+    --themes-color-text-secondary: #00000099;
+    --themes-color-text-tertiary: #0000004D;
+    --themes-color-input-background: #FFFFFF;
+    --themes-color-primary-button-text: #FFFFFF;
+    --themes-color-secondary-button-text: #000000;
+    --themes-color-primary-button-fill: #314DE2D9;
+    --themes-color-secondary-button-fill: #FFFFFF;
     --themes-color-background: #FAFAFA;
-    --themes-border-radius-medium: 8px;
-    --themes-border-radius-small: 4px;
-    --themes-color-primary-button-fill: #000000D9;
+    --themes-color-border-primary: #0000001F;
+    --themes-color-border-secondary: #00000014;
+    --themes-color-dot: #00000029;
+    --themes-border-radius-small: 4;
+    --themes-border-radius-medium: 8;
 }
+
