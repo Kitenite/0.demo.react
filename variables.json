@@ -1,0 +1,778 @@
+{
+    "collections": [
+        {
+            "name": "Tokens",
+            "body": [
+                {
+                    "name": "Mode 1",
+                    "body": [
+                        {
+                            "name": "color",
+                            "type": "group",
+                            "body": [
+                                {
+                                    "name": "button-label-primary",
+                                    "type": "color",
+                                    "body": "#000000",
+                                    "id": "aQ8YcC0kMedU_G2xP2nWs"
+                                },
+                                {
+                                    "name": "color-violet",
+                                    "type": "color",
+                                    "body": "#C7B9FF",
+                                    "id": "P29STG3gs-LjI-40nbXJh"
+                                },
+                                {
+                                    "name": "button-background-primary",
+                                    "type": "color",
+                                    "body": "#C7B9FF",
+                                    "id": "iS5FvVbY5QuxyuCjLVfEx"
+                                },
+                                {
+                                    "name": "color-black",
+                                    "type": "color",
+                                    "body": "#000000",
+                                    "id": "xpzTObaB6Ok_rdoZ4ggwT"
+                                },
+                                {
+                                    "name": "button-outline-primary",
+                                    "type": "color",
+                                    "body": "#000000",
+                                    "id": "-rRlicDQW_VG84rZ72WFr"
+                                }
+                            ],
+                            "id": "18SueNWNNayCXG9SoTPAA"
+                        },
+                        {
+                            "name": "number",
+                            "type": "group",
+                            "body": [
+                                {
+                                    "name": "radius-sm",
+                                    "type": "float",
+                                    "body": 8,
+                                    "id": "WJ4SlT6tYIR0V-NdYNlfL"
+                                },
+                                {
+                                    "name": "spacing-lg",
+                                    "type": "float",
+                                    "body": 24,
+                                    "id": "7ZsFBQAHeHw1H8dNBOKtr"
+                                },
+                                {
+                                    "name": "spacing-sm",
+                                    "type": "float",
+                                    "body": 12,
+                                    "id": "y8Wow6iOR5iCDNS7U4XpQ"
+                                }
+                            ],
+                            "id": "xF6l5TYy8UzdNhGvkuyqf"
+                        }
+                    ],
+                    "type": "mode",
+                    "id": "PjlPxa0dfV8slEaURCoYF"
+                }
+            ],
+            "type": "collection",
+            "id": "JqoCATtz6O6UBgt6wzvo5"
+        },
+        {
+            "name": "Colors-Example",
+            "body": [
+                {
+                    "name": "Light",
+                    "body": [
+                        {
+                            "name": "color-border-primary",
+                            "type": "color",
+                            "body": "#000000",
+                            "id": "yA2IvSCSF0YAwmDSnnbfv"
+                        },
+                        {
+                            "name": "color-surface",
+                            "type": "color",
+                            "body": "#FFFFFF",
+                            "id": "8iI2r9yygV4ESlpsrQpU0"
+                        },
+                        {
+                            "name": "color-accent",
+                            "type": "color",
+                            "body": "#F769C7",
+                            "id": "NgWlycWAPYZIzhI3jtl7H"
+                        },
+                        {
+                            "name": "color-text-primary",
+                            "type": "color",
+                            "body": "#000000",
+                            "id": "Kvs4_AozWWE1kgmAPVLUq"
+                        },
+                        {
+                            "name": "color-surface-faint",
+                            "type": "color",
+                            "body": "#FAFAFA",
+                            "id": "rjv9uf5l9NX06kCsjvme5"
+                        },
+                        {
+                            "name": "color-brand",
+                            "type": "color",
+                            "body": "#3CFF8A",
+                            "id": "ZPqDXCb24iQpyElX3XGl9"
+                        },
+                        {
+                            "name": "color-feature",
+                            "type": "color",
+                            "body": "#FF8577",
+                            "id": "LtvMDdV_s3oDLU-glIYgO"
+                        },
+                        {
+                            "name": "input",
+                            "type": "group",
+                            "body": [
+                                {
+                                    "name": "selected",
+                                    "type": "color",
+                                    "body": "#FF8577",
+                                    "id": "ATUTM8KJ_K7nkK0tRoisX"
+                                },
+                                {
+                                    "name": "foreground-color",
+                                    "type": "color",
+                                    "body": "#000000",
+                                    "id": "03WBHfawBlTqZeSYLsI0I"
+                                },
+                                {
+                                    "name": "border-color",
+                                    "type": "color",
+                                    "body": "#000000",
+                                    "id": "7GkCwqA8O-tPtWjkZUQal"
+                                },
+                                {
+                                    "name": "background-color",
+                                    "type": "color",
+                                    "body": "#FFFFFF",
+                                    "id": "cv8ToSKtC543uk0NfjlTR"
+                                }
+                            ],
+                            "id": "vh-lf4hetz-_fPJAFuapJ"
+                        },
+                        {
+                            "name": "button",
+                            "type": "group",
+                            "body": [
+                                {
+                                    "name": "foreground-primary",
+                                    "type": "color",
+                                    "body": "#000000",
+                                    "id": "TMQHxATeofvq3RxbIFCue"
+                                },
+                                {
+                                    "name": "border-primary",
+                                    "type": "color",
+                                    "body": "#000000",
+                                    "id": "RLjcoUGMuU_ZQJjlbbLf-"
+                                },
+                                {
+                                    "name": "background-primary",
+                                    "type": "color",
+                                    "body": "#3CFF8A",
+                                    "id": "is_IC0UbCEYp5LX-h1LJe"
+                                }
+                            ],
+                            "id": "m-R0aqpCjsHumaqtc6NEZ"
+                        }
+                    ],
+                    "type": "mode",
+                    "id": "aLTQkX-riYn7CM5xP6_dd"
+                },
+                {
+                    "name": "Dark",
+                    "body": [
+                        {
+                            "name": "color-border-primary",
+                            "type": "color",
+                            "body": "#757575",
+                            "id": "DqMjssQAoZkNR60y0RgJG"
+                        },
+                        {
+                            "name": "color-surface",
+                            "type": "color",
+                            "body": "#000000",
+                            "id": "1-DDRbM9fDBOPY4ubFpge"
+                        },
+                        {
+                            "name": "color-accent",
+                            "type": "color",
+                            "body": "#699BF7",
+                            "id": "uOzfQoWwGAuGIfpe-lhBK"
+                        },
+                        {
+                            "name": "color-text-primary",
+                            "type": "color",
+                            "body": "#FFFFFF",
+                            "id": "4XRPtDQzCiM_PTUHj04Tx"
+                        },
+                        {
+                            "name": "color-surface-faint",
+                            "type": "color",
+                            "body": "#2A2A2A",
+                            "id": "QEVCm75FcBgfQZXjAFcV9"
+                        },
+                        {
+                            "name": "color-brand",
+                            "type": "color",
+                            "body": "#8061FF",
+                            "id": "p_BuQHG-OChikg61PBa2B"
+                        },
+                        {
+                            "name": "color-feature",
+                            "type": "color",
+                            "body": "#FF8577",
+                            "id": "j3TwzKHvrKrUvZMpsbEm5"
+                        },
+                        {
+                            "name": "input",
+                            "type": "group",
+                            "body": [
+                                {
+                                    "name": "selected",
+                                    "type": "color",
+                                    "body": "#FF8577",
+                                    "id": "BLq6KUP1ZlVYVjxa4laA7"
+                                },
+                                {
+                                    "name": "foreground-color",
+                                    "type": "color",
+                                    "body": "#FFFFFF",
+                                    "id": "o5DmVT7nLEXVlcQQ6tsxc"
+                                },
+                                {
+                                    "name": "border-color",
+                                    "type": "color",
+                                    "body": "#757575",
+                                    "id": "XhmRTC9fP0qA3EB9dqvDG"
+                                },
+                                {
+                                    "name": "background-color",
+                                    "type": "color",
+                                    "body": "#000000",
+                                    "id": "vuPXJkGQFIfePfx25DuwS"
+                                }
+                            ],
+                            "id": "X4zNTpMLw81GLexBvOsMz"
+                        },
+                        {
+                            "name": "button",
+                            "type": "group",
+                            "body": [
+                                {
+                                    "name": "foreground-primary",
+                                    "type": "color",
+                                    "body": "#FFFFFF",
+                                    "id": "YWQw73iUQ-PjTTuzseuIH"
+                                },
+                                {
+                                    "name": "border-primary",
+                                    "type": "color",
+                                    "body": "#8061FF",
+                                    "id": "OiSZZKCPW5nLBidpxGYB2"
+                                },
+                                {
+                                    "name": "background-primary",
+                                    "type": "color",
+                                    "body": "#8061FF",
+                                    "id": "CGBinNuxh5_hL1diTYjS2"
+                                }
+                            ],
+                            "id": "5vuWrDG7xTlISjYAXNO5f"
+                        }
+                    ],
+                    "type": "mode",
+                    "id": "GgpVxYT_jtJY0iLo22LGn"
+                }
+            ],
+            "type": "collection",
+            "id": "wkay7kyI1Id7RxOw8G7Jc"
+        },
+        {
+            "name": "Text-Example",
+            "body": [
+                {
+                    "name": "English",
+                    "body": [
+                        {
+                            "name": "itemAdded",
+                            "type": "boolean",
+                            "body": true,
+                            "id": "mE0T9wAp8BA-gnqLCbRYw"
+                        },
+                        {
+                            "name": "Product - Pears",
+                            "type": "string",
+                            "body": "Pears",
+                            "id": "UdXR0ISDe0u9ZPFdvtXVT"
+                        },
+                        {
+                            "name": "Product - Cherries - Price",
+                            "type": "string",
+                            "body": "$2.89/lb",
+                            "id": "Xs585ItU1wL6x6ShOvaaf"
+                        },
+                        {
+                            "name": "Grown in",
+                            "type": "string",
+                            "body": "Grown in",
+                            "id": "9dpQf8wlljIvTx7P5b-3e"
+                        },
+                        {
+                            "name": "Product - Pears - Price",
+                            "type": "string",
+                            "body": "$2.29/lb",
+                            "id": "Gn3HU5KMqPsl5VhDT7vk6"
+                        },
+                        {
+                            "name": "Product - Cherries",
+                            "type": "string",
+                            "body": "Cherries",
+                            "id": "kG98zzGDzdljlQSnzNGsE"
+                        },
+                        {
+                            "name": "Product - Watermelon - Price",
+                            "type": "string",
+                            "body": "$5.99/ea",
+                            "id": "-1OI7CGkWbDEsdvQKIczH"
+                        },
+                        {
+                            "name": "Product - Watermelon",
+                            "type": "string",
+                            "body": "Watermelon",
+                            "id": "kxhC2JyA9FJjvTIawfGtN"
+                        },
+                        {
+                            "name": "Add to cart",
+                            "type": "string",
+                            "body": "Add to cart",
+                            "id": "GinmosrxGOCHz0feM2f4L"
+                        },
+                        {
+                            "name": "Find an item",
+                            "type": "string",
+                            "body": "Find an item",
+                            "id": "GuX0vc1zsVgRTDOiT-jDu"
+                        },
+                        {
+                            "name": "Search",
+                            "type": "string",
+                            "body": "Search",
+                            "id": "bgqtXvsP0eF9m1VXVs3Ff"
+                        },
+                        {
+                            "name": "Hello friend",
+                            "type": "string",
+                            "body": "Hello friend",
+                            "id": "-65BSu34kp6zFsGO538Uy"
+                        }
+                    ],
+                    "type": "mode",
+                    "id": "k2vRJyO_isOetcTpbmctp"
+                },
+                {
+                    "name": "German",
+                    "body": [
+                        {
+                            "name": "itemAdded",
+                            "type": "boolean",
+                            "body": false,
+                            "id": "PQ-OTarFJ5tukf9uOmLNr"
+                        },
+                        {
+                            "name": "Product - Pears",
+                            "type": "string",
+                            "body": "Birne",
+                            "id": "WiPyH8UsudxxCaQJCXBH6"
+                        },
+                        {
+                            "name": "Product - Cherries - Price",
+                            "type": "string",
+                            "body": "2,49 €",
+                            "id": "dZKlJm9jtJPk42AKnLREz"
+                        },
+                        {
+                            "name": "Grown in",
+                            "type": "string",
+                            "body": "Angebaut in",
+                            "id": "PH9V_5_XAD8XdlSNRpyOx"
+                        },
+                        {
+                            "name": "Product - Pears - Price",
+                            "type": "string",
+                            "body": "1,89 €",
+                            "id": "EL0NUHNUaDH9J6M1Y_PcQ"
+                        },
+                        {
+                            "name": "Product - Cherries",
+                            "type": "string",
+                            "body": "Kirschen",
+                            "id": "J7PAUDOGgcH9KOFao84Oz"
+                        },
+                        {
+                            "name": "Product - Watermelon - Price",
+                            "type": "string",
+                            "body": "3,69 €",
+                            "id": "ZuZOTKM4KqIqAvxDf3tGn"
+                        },
+                        {
+                            "name": "Product - Watermelon",
+                            "type": "string",
+                            "body": "Wassermelone",
+                            "id": "MGCkR11OseVXy0pTvKeXA"
+                        },
+                        {
+                            "name": "Add to cart",
+                            "type": "string",
+                            "body": "In den Warenkorb",
+                            "id": "Wt4GEdrOBZ0atJicfnlIN"
+                        },
+                        {
+                            "name": "Find an item",
+                            "type": "string",
+                            "body": "Einen Gegenstand finden",
+                            "id": "E6ZpRNfHiuGy4b14OektH"
+                        },
+                        {
+                            "name": "Search",
+                            "type": "string",
+                            "body": "Suche",
+                            "id": "-v-zGHo-RE28tvPYmYl_n"
+                        },
+                        {
+                            "name": "Hello friend",
+                            "type": "string",
+                            "body": "Hallo Freund",
+                            "id": "huDzidRmedztr2Wstp1fD"
+                        }
+                    ],
+                    "type": "mode",
+                    "id": "-cyYJq8BoPQO42kIox7-m"
+                },
+                {
+                    "name": "Japanese",
+                    "body": [
+                        {
+                            "name": "itemAdded",
+                            "type": "boolean",
+                            "body": false,
+                            "id": "9n1LkBwqJNFE-wazrBywy"
+                        },
+                        {
+                            "name": "Product - Pears",
+                            "type": "string",
+                            "body": "洋ナシ",
+                            "id": "h2YseFOna4BeXLJMEvXdh"
+                        },
+                        {
+                            "name": "Product - Cherries - Price",
+                            "type": "string",
+                            "body": "¥ 10000",
+                            "id": "7aRHLE5A82kKdTKrJri5U"
+                        },
+                        {
+                            "name": "Grown in",
+                            "type": "string",
+                            "body": "で育った",
+                            "id": "aTbcoZIszeCx4gvUeo-N6"
+                        },
+                        {
+                            "name": "Product - Pears - Price",
+                            "type": "string",
+                            "body": "¥ 299",
+                            "id": "0Osun-T_kozDbycq8pQ1p"
+                        },
+                        {
+                            "name": "Product - Cherries",
+                            "type": "string",
+                            "body": "さくらんぼ",
+                            "id": "72ulciFywZAc9o5cb4-Bg"
+                        },
+                        {
+                            "name": "Product - Watermelon - Price",
+                            "type": "string",
+                            "body": "¥ 980",
+                            "id": "QoxKJ_gS78bRl7CiCHkoo"
+                        },
+                        {
+                            "name": "Product - Watermelon",
+                            "type": "string",
+                            "body": "スイカ",
+                            "id": "3AGEBbcWxxYUOHJJaLFWc"
+                        },
+                        {
+                            "name": "Add to cart",
+                            "type": "string",
+                            "body": "カートに入れる",
+                            "id": "pwhL9fY1fAcAtJCBrZ4Mz"
+                        },
+                        {
+                            "name": "Find an item",
+                            "type": "string",
+                            "body": "アイテムを見つける",
+                            "id": "DxHNYg5gjz5ldVbenIMG3"
+                        },
+                        {
+                            "name": "Search",
+                            "type": "string",
+                            "body": "検索",
+                            "id": "CzoRykXPCmWtKIrDdK92E"
+                        },
+                        {
+                            "name": "Hello friend",
+                            "type": "string",
+                            "body": "こんにちは、友人",
+                            "id": "RprYoWRSSbOdhIBbVFgb2"
+                        }
+                    ],
+                    "type": "mode",
+                    "id": "C2QkDCEF0RQq1l0Gmvh_T"
+                }
+            ],
+            "type": "collection",
+            "id": "NdTqj6kbxM0unCcReSVaN"
+        },
+        {
+            "name": "Spacing-Example",
+            "body": [
+                {
+                    "name": "Standard",
+                    "body": [
+                        {
+                            "name": "spacing-xl",
+                            "type": "float",
+                            "body": 32,
+                            "id": "CdlTrHxBXAasxWLCz7Uab"
+                        },
+                        {
+                            "name": "spacing-lg",
+                            "type": "float",
+                            "body": 24,
+                            "id": "S4Atd1knsERMkvJLN1yc6"
+                        },
+                        {
+                            "name": "spacing-sm",
+                            "type": "float",
+                            "body": 12,
+                            "id": "1le5IDqeszpc4mR0cxwua"
+                        },
+                        {
+                            "name": "spacing-md",
+                            "type": "float",
+                            "body": 16,
+                            "id": "_Sax12awFF0HvYhjQ_xlX"
+                        },
+                        {
+                            "name": "spacing-xs",
+                            "type": "float",
+                            "body": 8,
+                            "id": "d6tLGUlXmxlmpYnpE8Rg-"
+                        }
+                    ],
+                    "type": "mode",
+                    "id": "33sNRA5rdrpmGlk0xIhO9"
+                },
+                {
+                    "name": "Expanded",
+                    "body": [
+                        {
+                            "name": "spacing-xl",
+                            "type": "float",
+                            "body": 64,
+                            "id": "sOWVO1nivumekWjZJ2iwI"
+                        },
+                        {
+                            "name": "spacing-lg",
+                            "type": "float",
+                            "body": 48,
+                            "id": "qZqQmDRH3XYlU_p6kbVCL"
+                        },
+                        {
+                            "name": "spacing-sm",
+                            "type": "float",
+                            "body": 24,
+                            "id": "O1PRwCpgowAPmjp6Mqfq7"
+                        },
+                        {
+                            "name": "spacing-md",
+                            "type": "float",
+                            "body": 32,
+                            "id": "kb0Ux2t1oBR2KWHvjOwOi"
+                        },
+                        {
+                            "name": "spacing-xs",
+                            "type": "float",
+                            "body": 16,
+                            "id": "VCHFWLV7X-ZbXLk5x4nOB"
+                        }
+                    ],
+                    "type": "mode",
+                    "id": "UN0p-c1WyGu9F2vTmPuQw"
+                },
+                {
+                    "name": "Condensed",
+                    "body": [
+                        {
+                            "name": "spacing-xl",
+                            "type": "float",
+                            "body": 16,
+                            "id": "OXwRb5Yz0KpUzJ7FxBqy5"
+                        },
+                        {
+                            "name": "spacing-lg",
+                            "type": "float",
+                            "body": 12,
+                            "id": "reGXIFpVPWweYcXkVOuKu"
+                        },
+                        {
+                            "name": "spacing-sm",
+                            "type": "float",
+                            "body": 4,
+                            "id": "qUXQNPlLsJj9oq7NGV6xl"
+                        },
+                        {
+                            "name": "spacing-md",
+                            "type": "float",
+                            "body": 8,
+                            "id": "V5fKAa3KfoImVJwkaQ5kS"
+                        },
+                        {
+                            "name": "spacing-xs",
+                            "type": "float",
+                            "body": 2,
+                            "id": "BGzdQXS7KwUnikOonZQBC"
+                        }
+                    ],
+                    "type": "mode",
+                    "id": "_FMesZzrbD3r59TIczKdg"
+                }
+            ],
+            "type": "collection",
+            "id": "bvG4NAixrfeKI64qElNWN"
+        },
+        {
+            "name": "Themes",
+            "body": [
+                {
+                    "name": "Light",
+                    "body": [
+                        {
+                            "name": "color-border-primary",
+                            "type": "color",
+                            "body": "#000000",
+                            "id": "XoaDmy-d2R12Mxcjhv-vC"
+                        },
+                        {
+                            "name": "color-surface",
+                            "type": "color",
+                            "body": "#FFFFFF",
+                            "id": "tWA2OI3DNmBouan1NRoa6"
+                        },
+                        {
+                            "name": "color-text-primary",
+                            "type": "color",
+                            "body": "#000000",
+                            "id": "J6s_uHmlqQ1p_E13WtdEz"
+                        },
+                        {
+                            "name": "color-brand",
+                            "type": "color",
+                            "body": "#C7B9FF",
+                            "id": "6_qwwaPlU_yw0j4hR-pNA"
+                        },
+                        {
+                            "name": "button",
+                            "type": "group",
+                            "body": [
+                                {
+                                    "name": "foreground-primary",
+                                    "type": "color",
+                                    "body": "#000000",
+                                    "id": "gwDt_0_730noVMJJNLr3e"
+                                },
+                                {
+                                    "name": "border-primary",
+                                    "type": "color",
+                                    "body": "#000000",
+                                    "id": "EE4jjbOoHop32N4b0idpj"
+                                },
+                                {
+                                    "name": "background-primary",
+                                    "type": "color",
+                                    "body": "#C7B9FF",
+                                    "id": "3g6qfc2kOoHqW7NVgU8XB"
+                                }
+                            ],
+                            "id": "PCOmiSXLMZqBZfa9PMN6x"
+                        }
+                    ],
+                    "type": "mode",
+                    "id": "jy_WGGzQGlC-jRdnESbeH"
+                },
+                {
+                    "name": "Dark",
+                    "body": [
+                        {
+                            "name": "color-border-primary",
+                            "type": "color",
+                            "body": "#757575",
+                            "id": "vwU5Tv-8WFj5huHURHgHV"
+                        },
+                        {
+                            "name": "color-surface",
+                            "type": "color",
+                            "body": "#000000",
+                            "id": "sTuSKQxApY4ggA34baq1Y"
+                        },
+                        {
+                            "name": "color-text-primary",
+                            "type": "color",
+                            "body": "#FFFFFF",
+                            "id": "WdN8xN4M6fVHMjWymwhZ5"
+                        },
+                        {
+                            "name": "color-brand",
+                            "type": "color",
+                            "body": "#8061FF",
+                            "id": "8XVJ17SEMuNjEbT0MPZc8"
+                        },
+                        {
+                            "name": "button",
+                            "type": "group",
+                            "body": [
+                                {
+                                    "name": "foreground-primary",
+                                    "type": "color",
+                                    "body": "#FFFFFF",
+                                    "id": "aqvUW7ook28FrWyRS5HZk"
+                                },
+                                {
+                                    "name": "border-primary",
+                                    "type": "color",
+                                    "body": "#757575",
+                                    "id": "iXqHqWki8060vTf78sOYV"
+                                },
+                                {
+                                    "name": "background-primary",
+                                    "type": "color",
+                                    "body": "#8061FF",
+                                    "id": "2kcmQparLhf8JmYQLoZQ5"
+                                }
+                            ],
+                            "id": "ZqS76kMlKDDVo6JqUybuE"
+                        }
+                    ],
+                    "type": "mode",
+                    "id": "2VLk8Zmx3YI66mYypySyX"
+                }
+            ],
+            "type": "collection",
+            "id": "0kzMlxmieauQ8ZgZ5v-IV"
+        }
+    ]
+}
