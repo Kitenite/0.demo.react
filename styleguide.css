@@ -1,17 +1,12 @@
 :root {
-  --web-background-primary: #000000;
-  --web-text-primary: #ffffff;
-  --web-border-primary: #ffffff1f;
+    --web-background-primary: #000000;
+    --web-text-primary: #FFFFFF;
+    --web-border-primary: #FFFFFF1F;
 }
 
 [data-web-mode="light"] {
-  --web-background-primary: #ffffff;
-  --web-text-primary: #FFFFFF;
-  --web-border-primary: #FFFFFF1F;
+    --web-background-primary: #000000;
+    --web-text-primary: #FFFFFF;
+    --web-border-primary: #FFFFFF1F;
 }
 
-[data-web-mode="dark"] {
-  --web-background-primary: #000000;
-  --web-text-primary: #FFFFFF;
-  --web-border-primary: #FFFFFF1F;
-}
