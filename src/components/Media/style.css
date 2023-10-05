@@ -1,0 +1,20 @@
+.media {
+  background-image: url(/assets/shoe.png);
+  background-position: center; 
+  background-size: cover;
+  width: 94vw;
+  position: relative;
+  height: 80vh;
+}
+
+.media .MERCURIAL-XXV {
+  color: var(--playground-text-primary-duplicate);
+  font-family: "Futura-Bold", Helvetica;
+  font-size: 72px;
+  font-weight: 700;
+  left: 2vw;
+  letter-spacing: -2.16px;
+  line-height: normal;
+  position: absolute;
+  top: 55vh;
+}

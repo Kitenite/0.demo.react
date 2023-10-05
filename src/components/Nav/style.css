@@ -1,0 +1,68 @@
+.nav {
+  position: relative; /* This will serve as the positioning context for the absolute logo */
+  display: flex; /* Flexbox */
+  align-items: center; /* Vertically center children */
+  justify-content: center; /* Center items */
+  border-bottom: 1px solid var(--playground-border-primary-duplicate);
+  height: 56px;
+  width: 100%; /* Make it responsive */
+}
+
+.nav .logo {
+  position: absolute; /* Absolutely position the logo */
+  left: 2vw; /* Align to the left with a 24px distance */
+  top: 50%; /* Center it vertically */
+  transform: translateY(-50%); /* Adjust the vertical centering */
+  height: 32px;
+  width: 32px;
+  cursor: pointer;
+}
+
+.nav .logo:hover {
+  transform: translateY(-50%) scale(1.07); /* Combine both transformations */
+}
+
+
+.nav .nav-links {
+  display: flex; /* Flexbox */
+  gap: 2vw; /* Space between nav-links */
+  align-items: center; /* Vertically center text within nav-links */
+  cursor: pointer;
+}
+
+.nav .nav-links :hover {
+  -webkit-text-stroke: 0.5px currentColor;
+  transform: scale(1.05); /* or any desired scale factor */
+  transition: transform 0.3s;
+}
+
+.nav .text-wrapper {
+  color: var(--playground-text-primary-duplicate);
+  font-family: "SF Pro Text-Semibold", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-top: -1px;
+  white-space: nowrap;
+}
+
+.nav .nav-icon {
+  display: none; /* Hidden by default */
+  cursor: pointer;
+  position: absolute; /* Absolutely position the icon */
+  right: 2vw; /* Align to the right with a 2vw distance */
+  top: 50%; /* Center it vertically */
+  transform: translateY(-50%); /* Adjust the vertical centering */
+  /* Add any additional styling you'd like for your icon here */
+}
+
+@media (max-width: 768px) { /* This is a typical breakpoint for tablets. You can adjust it based on your design's requirements */
+  .nav .nav-links {
+    display: none; /* Hide nav-links on small screens */
+  }
+
+  .nav .nav-icon {
+    display: block; /* Show the icon on small screens */
+  }
+}
