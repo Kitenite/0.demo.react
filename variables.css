@@ -1,0 +1,22 @@
+[data-web-mode="light"] {
+    --web-background-primary: #FFFFFF;
+    --web-text-primary: #000000;
+    --web-text-secondary: #00000099;
+    --web-border-primary: #00000014;
+    --web-state-inactive: #0000004D;
+}
+
+[data-web-mode="dark"] {
+    --web-background-primary: #000000;
+    --web-text-primary: #FFFFFF;
+    --web-text-secondary: #FFFFFF99;
+    --web-border-primary: #FFFFFF1F;
+    --web-state-inactive: #FFFFFF4D;
+}
+
+[data-playground-mode="light"] {
+    --playground-background-primary: #000000;
+    --playground-text-primary: #FFFFFF;
+    --playground-border-primary: #FFFFFF1F;
+}
+
