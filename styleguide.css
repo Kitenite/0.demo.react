@@ -1,38 +1,22 @@
-:root {
-  --playground-background-primary-duplicate: rgba(255, 255, 255, 1);
-  --playground-border-primary-duplicate: rgba(0, 0, 0, 0.08);
-  --playground-text-primary-duplicate: rgba(0, 0, 0, 1);
-  --web-background-primary: rgba(255, 255, 255, 1);
-  --web-border-primary: rgba(0, 0, 0, 0.08);
-  --web-state-inactive: rgba(0, 0, 0, 0.3);
-  --web-text-primary: rgba(0, 0, 0, 1);
-  --web-text-secondary: rgba(0, 0, 0, 0.6);
-}
-
-/*
-
-To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
-
-<body data-web-mode="light">
-    <!-- the rest of your content -->
-</body>
-
-You can apply the theme on any DOM node, not just the `body`
-
-*/
-
 [data-web-mode="light"] {
-  --web-background-primary: rgba(255, 255, 255, 1);
-  --web-border-primary: rgba(0, 0, 0, 0.08);
-  --web-state-inactive: rgba(0, 0, 0, 0.3);
-  --web-text-primary: rgba(0, 0, 0, 1);
-  --web-text-secondary: rgba(0, 0, 0, 0.6);
+    --web-background-primary: #FFFFFF;
+    --web-text-primary: #000000;
+    --web-text-secondary: #00000099;
+    --web-border-primary: #00000014;
+    --web-state-inactive: #0000004D;
 }
 
 [data-web-mode="dark"] {
-  --web-background-primary: rgba(0, 0, 0, 1);
-  --web-border-primary: rgba(255, 255, 255, 0.12);
-  --web-state-inactive: rgba(255, 255, 255, 0.3);
-  --web-text-primary: rgba(255, 255, 255, 1);
-  --web-text-secondary: rgba(255, 255, 255, 0.6);
+    --web-background-primary: #000000;
+    --web-text-primary: #FFFFFF;
+    --web-text-secondary: #FFFFFF99;
+    --web-border-primary: #FFFFFF1F;
+    --web-state-inactive: #FFFFFF4D;
 }
+
+[data-playground-mode="light"] {
+    --playground-background-primary: #000000;
+    --playground-text-primary: #FFFFFF;
+    --playground-border-primary: #FFFFFF1F;
+}
+
