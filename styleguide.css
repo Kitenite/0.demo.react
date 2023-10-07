@@ -1,12 +1,12 @@
 :root {
-    --web-background-primary: #FFFFFF;
-    --web-text-primary: #000000;
-    --web-border-primary: #FFFFFF1F;
+    --web-background-primary: #000000;
+    --web-text-primary: #FFFFFF;
+    --web-border-primary: #FF00009E;
 }
 
 [data-web-mode="light"] {
-    --web-background-primary: #FFFFFF;
-    --web-text-primary: #000000;
-    --web-border-primary: #FFFFFF1F;
+    --web-background-primary: #000000;
+    --web-text-primary: #FFFFFF;
+    --web-border-primary: #FF00009E;
 }
 
